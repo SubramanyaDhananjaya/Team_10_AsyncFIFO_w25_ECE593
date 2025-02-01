@@ -1,0 +1,19 @@
+//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module fifo2
+-- Compiling module fifomem
+-- Compiling module async_cmp
+-- Compiling module rptr_empty
+-- Compiling module wptr_full
+
+Top level modules:
+	fifo2
+
+} {} {}} //thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv {1 {vlog -work work -vopt -sv -stats=none //thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

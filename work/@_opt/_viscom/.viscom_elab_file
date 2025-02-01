@@ -1,0 +1,1 @@
+C:/questasim64_2024.2/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.top -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt -id 1-00be438f3e2d-679daa6c-296-44cc +__design_bin_path+//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593 +__betafsm

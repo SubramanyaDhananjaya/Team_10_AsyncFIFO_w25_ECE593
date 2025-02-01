@@ -1,0 +1,177 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d//thoth.cecs.pdx.edu/Home07/subrama/Desktop/ece593w25_hw2/cascade_alu
+T_opt
+!s110 1738386030
+VdAY>W7ke:3HUI:PTI6b0U3
+04 3 4 work top fast 0
+=1-00be438f3e2d-679daa6c-296-44cc
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vasync_cmp
+Z2 2//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1738386002
+!i10b 1
+!s100 89Aack`g76?BNe1_]YSD;2
+ITk8ZC[B^ZL3S^2j<PD7VE2
+S1
+Z5 d//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593
+Z6 w1738385712
+Z7 8//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv
+Z8 F//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv
+!i122 0
+L0 38 22
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z11 !s108 1738386001.000000
+Z12 !s107 //thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo.sv|
+!i113 0
+Z14 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfifo2
+R2
+R3
+R4
+!i10b 1
+!s100 g`jAg0[P6@HX]Xm8cTzZP3
+InJ]I4a35X50M_An?=kT1g2
+S1
+R5
+R6
+R7
+R8
+!i122 0
+L0 1 19
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vfifomem
+R2
+R3
+R4
+!i10b 1
+!s100 =Pj[oV=MdM3Y04OV`Z]1V0
+I@HUzAFOz<NX2`@zI@ELfX2
+S1
+R5
+R6
+R7
+R8
+!i122 0
+L0 21 16
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vrptr_empty
+R2
+R3
+R4
+!i10b 1
+!s100 00E<7A6;j>_I^GTo]GRjB1
+IHA=b3Hd5@>>X[eR>e>1j`0
+S1
+R5
+R6
+R7
+R8
+!i122 0
+L0 61 28
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vtop
+2//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv
+R3
+R4
+!i10b 1
+!s100 07MIMnLz;of]2;BKlc7A<3
+I2aOck:3maCj?lG?UdjBDm3
+S1
+R5
+w1738385772
+8//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv
+F//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv
+!i122 1
+L0 1 91
+R9
+R10
+r1
+!s85 0
+31
+!s108 1738386002.000000
+!s107 //thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//thoth.cecs.pdx.edu/Home07/subrama/Desktop/M1_ECE593/Async_fifo_tb.sv|
+!i113 0
+R14
+R1
+vwptr_full
+R2
+R3
+R4
+!i10b 1
+!s100 EMTz5e1bU@nKCSEQ<AaI;2
+IF83[GQMieZF8=FlBE<C9]1
+S1
+R5
+R6
+R7
+R8
+!i122 0
+L0 90 30
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
