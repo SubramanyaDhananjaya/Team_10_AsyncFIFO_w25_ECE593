@@ -1,3 +1,4 @@
+import async_fifo_pkg::*;
 class generator;
 
 rand transaction trans;

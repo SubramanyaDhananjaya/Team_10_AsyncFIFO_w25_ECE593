@@ -1,0 +1,2 @@
+var g_data = {"16":[15,"fifo_mem_inst",1],"17":[15,"synchronizer_r2w_inst",1],"18":[15,"synchronizer_w2r_inst",1],"19":[15,"rptr_handler_inst",1],"20":[15,"wptr_handler_inst",1],"15":[12,"DUT",1],"12":[-1,"async_fifo_top",1]};
+processInstLinks(g_data);

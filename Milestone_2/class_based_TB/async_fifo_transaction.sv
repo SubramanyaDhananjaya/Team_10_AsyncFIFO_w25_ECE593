@@ -13,4 +13,7 @@ class transaction;
     bit rHalfEmpty;
     bit wHalfFull;
 
+
+
+	//constraint c1 {wData[0] == 0; }
 endclass
