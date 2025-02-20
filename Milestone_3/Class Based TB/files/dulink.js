@@ -1,2 +1,0 @@
-var g_data = {"4":["work.async_fifo_top",78.92,1],"7":["work.asynchronous_fifo",98.52,1],"8":["work.fifo_mem",100.00,1],"10":["work.rptr_handler",100.00,1],"9":["work.synchronizer",100.00,1],"11":["work.wptr_handler",100.00,1]};
-processDuLinks(g_data);
