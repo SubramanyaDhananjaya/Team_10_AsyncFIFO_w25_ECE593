@@ -2,6 +2,7 @@ import uvm_pkg::*;
 `include "uvm_macros.svh"
 `include "async_fifo_interface.sv"
 
+// Conditional compilation for including different test files based on the BASE_TEST macro
 `ifdef BASE_TEST
     `include "async_fifo_test.sv"
 `else
@@ -32,19 +33,20 @@ module tb_top;
               .rrst(intf.rrst),
               .wrst(intf.wrst),
               .rData(intf.rData));
-  
+  // Initial block to set up the UVM configuration database for the testbench
   initial 
   begin
-    uvm_config_db#(virtual intf)::set(null, "*","vif", intf);
+    uvm_config_db#(virtual intf)::set(null, "*","vif", intf); //Setting virtual interface
     `uvm_info("tb_top","uvm_config_db set for uvm_tb_top", UVM_LOW);
   end
 
 	initial 
 	begin
 		`ifdef BASE_TEST
-			run_test("fifo_base_test");
+			run_test("fifo_base_test"); // Run the base test if BASE_TEST is defined
 		`else
-			run_test("fifo_random_test");
+			run_test("fifo_random_test");   // Run the random test if BASE_TEST is not defined
+
 		`endif
 	end
 

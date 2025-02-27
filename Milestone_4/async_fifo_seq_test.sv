@@ -6,13 +6,16 @@ class write_sequence extends uvm_sequence#(transaction_write);
 `uvm_object_utils(write_sequence)
 
 int tx_count_write=100;
-transaction_write txw;
+transaction_write txw;    // Declare a transaction_write object
     
+// Constructor
 function new(string name = "write_sequence");
        super.new(name);
        `uvm_info("WRITE_SEQUENCE_CLASS", "Inside constructor",UVM_LOW)
 endfunction
 
+
+// Body task
 task body();
         `uvm_info("WRITE_SEQUENCE_CLASS", "Inside body task",UVM_LOW)
   for (int i = 0; i < tx_count_write; i++) begin
@@ -24,19 +27,27 @@ task body();
 		end
   	
 endtask
+
+
 endclass
+
+
+// read_sequence class
 
 class read_sequence extends uvm_sequence#(transaction_read);
 `uvm_object_utils(read_sequence)
 
 int tx_count_read=100;
-transaction_read txr;
+transaction_read txr;		// Declare a transaction_read object
     
+// Constructor 
 function new(string name = "read_sequence");
        super.new(name);
        `uvm_info("READ_SEQUENCE_CLASS", "Inside constructor",UVM_LOW)
 endfunction
 
+
+// Body task
 task body();
         `uvm_info("READ_SEQUENCE_CLASS", "Inside body task",UVM_LOW)
 		for (int i = 0; i < tx_count_read; i++) begin
@@ -45,6 +56,8 @@ task body();
           if(!(txr.randomize() with {txr.rinc == 1;}));
 			finish_item(txr);
 		end
-$display("SK_DEBUG2 entered the end of read sequence");	
+adw
+	
 endtask
+
 endclass

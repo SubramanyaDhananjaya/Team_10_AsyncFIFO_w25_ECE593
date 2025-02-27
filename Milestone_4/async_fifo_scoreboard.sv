@@ -52,9 +52,9 @@ empty_count = tw.size;    // stores the current size of tw queue
     		popped_wData = tw.pop_front().wData; // removes and return the oldest data transaction from the write queue and extracts the written data from the transaction, and now popped_wData contains the expected data. 
 				
     		if (txr.rData === txr.rData) // comparing read data with expected data, txr.rData has actual data, popped_wData has expected data
-      			`uvm_info("ASYNC_FIFO_SCOREBOARD", $sformatf("PASSED Expected Data: %0h --- DUT Read Data: %0h", txr.rData, txr.rData), UVM_MEDIUM)
+      			`uvm_info("ASYNC_FIFO_SCOREBOARD", $sformatf("Pass Expected Data: %0h | Read Data from DUT: %0h", txr.rData, txr.rData), UVM_MEDIUM)
     		else
-      			`uvm_error("ASYNC_FIFO_SCOREBOARD", $sformatf("ERROR Expected Data: %0h Does not match DUT Read Data: %0h", txr.rData, popped_wData))
+      			`uvm_error("ASYNC_FIFO_SCOREBOARD", $sformatf("Error Expected Data: %0h Does not match Read Data from DUT: %0h", txr.rData, popped_wData))
   	end     
 endfunction
 

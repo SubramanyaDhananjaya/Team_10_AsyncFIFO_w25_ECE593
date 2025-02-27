@@ -64,7 +64,7 @@ class fifo_base_test extends uvm_test;
         phase.drop_objection(this , "Finished fifo_seq in main phase"); // Drop objection after sequences have completed execution
 
 
-        #2000;
+        #1000;
         $finish;
     endtask
 
