@@ -1,0 +1,2 @@
+var g_data = ["","async_fifo_interface.sv","async_fifo_package.sv","async_fifo_seq_item.sv","async_fifo_seq_test.sv","async_fifo_seq_testrand.sv","async_fifo_sequencer.sv","async_fifo_driver.sv","async_fifo_write_monitor.sv","async_fifo_read_monitor.sv","async_fifo_write_agent.sv","async_fifo_read_agent.sv","async_fifo_scoreboard.sv","async_fifo_top.sv","async_fifo_env.sv","async_fifo_testrand.sv","async_fifo_coverage.sv","async_fifo.sv"];
+processSrcNamesData(g_data);
